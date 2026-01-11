@@ -1,0 +1,52 @@
+services:
+  azurite:
+    image: mcr.microsoft.com/azure-storage/azurite:latest
+    ports:
+      - "10010:10000"
+      - "10011:10001"
+      - "10012:10002"
+    environment:
+      - AZURITE_ACCOUNTS=devstoreaccount1:Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==
+    volumes:
+      - azurite_data:/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:10010/devstoreaccount1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  cosmos-emulator:
+    image: mcr.microsoft.com/cosmosdb/linux/azure-cosmos-emulator:latest
+    ports:
+      - "8082:8081"
+    environment:
+      - AZURE_COSMOS_EMULATOR_PARTITION_COUNT=1
+      - AZURE_COSMOS_EMULATOR_ENABLE_DATA_PERSISTENCE=false
+    mem_limit: 3g
+    cpus: 2.0
+
+  event-hubs-emulator:
+    image: mcr.microsoft.com/azure-messaging/eventhubs-emulator:latest
+    ports:
+      - "5671:5671"
+      - "5672:5672"
+    environment:
+      - ACCEPT_EULA=Y
+    depends_on:
+      - azurite
+
+  service-bus-emulator:
+    image: mcr.microsoft.com/azure-messaging/servicebus-emulator:latest
+    ports:
+      - "5673:5673"
+    environment:
+      - ACCEPT_EULA=Y
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5673"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  azurite_data:
+  cosmos_data:

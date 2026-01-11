@@ -1,0 +1,6 @@
+Compressor troubleshooting
+
+1. Check intake filters for blockage.
+2. Inspect oil pressure and levels.
+3. If temperature spikes, check coolant flow and compressor load.
+4. Excessive vibration indicates misalignment or worn bearings; schedule maintenance.

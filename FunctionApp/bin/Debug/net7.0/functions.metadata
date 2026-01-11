@@ -1,0 +1,106 @@
+[
+  {
+    "name": "ChatWithRag",
+    "scriptFile": "IotRagFunctionApp.dll",
+    "entryPoint": "IotRagFunctionApp.Functions.ChatWithRag.Run",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "req",
+        "direction": "In",
+        "type": "httpTrigger",
+        "authLevel": "Anonymous",
+        "methods": [
+          "post"
+        ],
+        "route": "chat",
+        "properties": {}
+      },
+      {
+        "name": "$return",
+        "type": "http",
+        "direction": "Out"
+      }
+    ]
+  },
+  {
+    "name": "CleanupOldTelemetry",
+    "scriptFile": "IotRagFunctionApp.dll",
+    "entryPoint": "IotRagFunctionApp.Functions.CleanupOldTelemetry.Run",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "timer",
+        "direction": "In",
+        "type": "timerTrigger",
+        "schedule": "0 0 */6 * * *",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "name": "IngestDocuments",
+    "scriptFile": "IotRagFunctionApp.dll",
+    "entryPoint": "IotRagFunctionApp.Functions.IngestDocuments.Run",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "blobClient",
+        "direction": "In",
+        "type": "blobTrigger",
+        "blobPath": "manuals/{name}",
+        "connection": "BlobStorageConnection",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "name": "IngestTelemetry",
+    "scriptFile": "IotRagFunctionApp.dll",
+    "entryPoint": "IotRagFunctionApp.Functions.IngestTelemetry.Run",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "events",
+        "direction": "In",
+        "type": "eventHubTrigger",
+        "eventHubName": "telemetry-hub",
+        "connection": "EventHubsConnection",
+        "cardinality": "Many",
+        "properties": {}
+      }
+    ]
+  },
+  {
+    "name": "ProcessAlerts",
+    "scriptFile": "IotRagFunctionApp.dll",
+    "entryPoint": "IotRagFunctionApp.Functions.ProcessAlerts.Run",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "message",
+        "direction": "In",
+        "type": "serviceBusTrigger",
+        "dataType": "String",
+        "queueName": "alerts-queue",
+        "connection": "ServiceBusConnection",
+        "properties": {}
+      }
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+Pump maintenance SOP
+
+1. Check lubrication levels every 100 operating hours.
+2. Inspect seals for leaks.
+3. Monitor vibration; if vibration exceeds 1.0mm, stop the pump and inspect bearings.
+4. If temperature rises above 90°C, reduce load and inspect motor and cooling system.
+5. Follow lockout/tagout procedures before any maintenance.

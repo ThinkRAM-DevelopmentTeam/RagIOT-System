@@ -1,0 +1,2 @@
+C:\Users\Khush\OneDrive\Desktop\IoTRag\FunctionApp\obj\Release\net8.0\IotRagFunctionApp.csproj.AssemblyReference.cache
+C:\Users\Khush\OneDrive\Desktop\IoTRag\FunctionApp\obj\Release\net8.0\IotRagFunctionApp.GeneratedMSBuildEditorConfig.editorconfig
