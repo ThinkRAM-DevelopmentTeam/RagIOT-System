@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DvfkOW1Dd2A=",
+  "dgSpecHash": "mnKuqdQ512Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Khush\\OneDrive\\Desktop\\IoTRag\\UploadHelper\\UploadHelper.csproj",
+  "projectFilePath": "C:\\Users\\Khush\\OneDrive\\Desktop\\RagIOT-System\\UploadHelper\\UploadHelper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Khush\\.nuget\\packages\\azure.core\\1.39.0\\azure.core.1.39.0.nupkg.sha512",
     "C:\\Users\\Khush\\.nuget\\packages\\azure.storage.blobs\\12.20.0\\azure.storage.blobs.12.20.0.nupkg.sha512",

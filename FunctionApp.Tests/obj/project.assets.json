@@ -8536,11 +8536,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Khush\\OneDrive\\Desktop\\IoTRag\\FunctionApp.Tests\\FunctionApp.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Khush\\OneDrive\\Desktop\\RagIOT-System\\FunctionApp.Tests\\FunctionApp.Tests.csproj",
       "projectName": "FunctionApp.Tests",
-      "projectPath": "C:\\Users\\Khush\\OneDrive\\Desktop\\IoTRag\\FunctionApp.Tests\\FunctionApp.Tests.csproj",
+      "projectPath": "C:\\Users\\Khush\\OneDrive\\Desktop\\RagIOT-System\\FunctionApp.Tests\\FunctionApp.Tests.csproj",
       "packagesPath": "C:\\Users\\Khush\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Khush\\OneDrive\\Desktop\\IoTRag\\FunctionApp.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Khush\\OneDrive\\Desktop\\RagIOT-System\\FunctionApp.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Khush\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -8555,8 +8555,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Khush\\OneDrive\\Desktop\\IoTRag\\FunctionApp\\IotRagFunctionApp.csproj": {
-              "projectPath": "C:\\Users\\Khush\\OneDrive\\Desktop\\IoTRag\\FunctionApp\\IotRagFunctionApp.csproj"
+            "C:\\Users\\Khush\\OneDrive\\Desktop\\RagIOT-System\\FunctionApp\\IotRagFunctionApp.csproj": {
+              "projectPath": "C:\\Users\\Khush\\OneDrive\\Desktop\\RagIOT-System\\FunctionApp\\IotRagFunctionApp.csproj"
             }
           }
         }

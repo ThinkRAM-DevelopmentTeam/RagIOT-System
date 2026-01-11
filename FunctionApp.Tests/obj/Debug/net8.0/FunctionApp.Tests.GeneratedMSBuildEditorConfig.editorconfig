@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FunctionApp.Tests
-build_property.ProjectDir = C:\Users\Khush\OneDrive\Desktop\IoTRag\FunctionApp.Tests\
+build_property.ProjectDir = C:\Users\Khush\OneDrive\Desktop\RagIOT-System\FunctionApp.Tests\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

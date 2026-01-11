@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SqWFJpQTYKA=",
+  "dgSpecHash": "ctPUvagkMMw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Khush\\OneDrive\\Desktop\\IoTRag\\TelemetryGenerator\\TelemetryGenerator.csproj",
+  "projectFilePath": "C:\\Users\\Khush\\OneDrive\\Desktop\\RagIOT-System\\TelemetryGenerator\\TelemetryGenerator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Khush\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
     "C:\\Users\\Khush\\.nuget\\packages\\azure.core.amqp\\1.3.1\\azure.core.amqp.1.3.1.nupkg.sha512",

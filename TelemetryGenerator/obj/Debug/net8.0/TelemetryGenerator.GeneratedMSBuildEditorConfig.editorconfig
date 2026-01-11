@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TelemetryGenerator
-build_property.ProjectDir = C:\Users\Khush\OneDrive\Desktop\IoTRag\TelemetryGenerator\
+build_property.ProjectDir = C:\Users\Khush\OneDrive\Desktop\RagIOT-System\TelemetryGenerator\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

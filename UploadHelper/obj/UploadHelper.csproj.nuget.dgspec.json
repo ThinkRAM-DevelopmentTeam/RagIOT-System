@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Khush\\OneDrive\\Desktop\\IoTRag\\UploadHelper\\UploadHelper.csproj": {}
+    "C:\\Users\\Khush\\OneDrive\\Desktop\\RagIOT-System\\UploadHelper\\UploadHelper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Khush\\OneDrive\\Desktop\\IoTRag\\UploadHelper\\UploadHelper.csproj": {
+    "C:\\Users\\Khush\\OneDrive\\Desktop\\RagIOT-System\\UploadHelper\\UploadHelper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Khush\\OneDrive\\Desktop\\IoTRag\\UploadHelper\\UploadHelper.csproj",
+        "projectUniqueName": "C:\\Users\\Khush\\OneDrive\\Desktop\\RagIOT-System\\UploadHelper\\UploadHelper.csproj",
         "projectName": "UploadHelper",
-        "projectPath": "C:\\Users\\Khush\\OneDrive\\Desktop\\IoTRag\\UploadHelper\\UploadHelper.csproj",
+        "projectPath": "C:\\Users\\Khush\\OneDrive\\Desktop\\RagIOT-System\\UploadHelper\\UploadHelper.csproj",
         "packagesPath": "C:\\Users\\Khush\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Khush\\OneDrive\\Desktop\\IoTRag\\UploadHelper\\obj\\",
+        "outputPath": "C:\\Users\\Khush\\OneDrive\\Desktop\\RagIOT-System\\UploadHelper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Khush\\AppData\\Roaming\\NuGet\\NuGet.Config"

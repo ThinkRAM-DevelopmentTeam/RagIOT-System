@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Khush\\OneDrive\\Desktop\\IoTRag\\TelemetryGenerator\\TelemetryGenerator.csproj": {}
+    "C:\\Users\\Khush\\OneDrive\\Desktop\\RagIOT-System\\TelemetryGenerator\\TelemetryGenerator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Khush\\OneDrive\\Desktop\\IoTRag\\TelemetryGenerator\\TelemetryGenerator.csproj": {
+    "C:\\Users\\Khush\\OneDrive\\Desktop\\RagIOT-System\\TelemetryGenerator\\TelemetryGenerator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Khush\\OneDrive\\Desktop\\IoTRag\\TelemetryGenerator\\TelemetryGenerator.csproj",
+        "projectUniqueName": "C:\\Users\\Khush\\OneDrive\\Desktop\\RagIOT-System\\TelemetryGenerator\\TelemetryGenerator.csproj",
         "projectName": "TelemetryGenerator",
-        "projectPath": "C:\\Users\\Khush\\OneDrive\\Desktop\\IoTRag\\TelemetryGenerator\\TelemetryGenerator.csproj",
+        "projectPath": "C:\\Users\\Khush\\OneDrive\\Desktop\\RagIOT-System\\TelemetryGenerator\\TelemetryGenerator.csproj",
         "packagesPath": "C:\\Users\\Khush\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Khush\\OneDrive\\Desktop\\IoTRag\\TelemetryGenerator\\obj\\",
+        "outputPath": "C:\\Users\\Khush\\OneDrive\\Desktop\\RagIOT-System\\TelemetryGenerator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Khush\\AppData\\Roaming\\NuGet\\NuGet.Config"
